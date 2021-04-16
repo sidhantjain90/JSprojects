@@ -1,0 +1,18 @@
+div{
+  background-color: gray;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#message{
+  display: flex;
+  height: 50px;
+  /* flex-grow: 1; */
+}
+
+#Btn{
+  height: 50px;
+  width: 100px;
+}
