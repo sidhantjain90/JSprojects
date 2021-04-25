@@ -1,0 +1,72 @@
+:root{
+  --mainWhite: #f2fdff;
+  --mainBlue: #3e92cc;
+}
+
+.max-height{
+  min-height: 100vh;
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("../JSprojects/img/unsplash4.jpg") center/cover fixed no-repeat;
+
+}
+
+body{
+  background: var(--mainWhite);
+}
+
+.customer-card{
+ background: transparent!important;
+ color:white;
+ border:0.05rem solid white;
+ padding-bottom: 1rem;
+ padding-left: 1rem;
+ padding-right: 1rem;
+ position: relative;
+ height: 200px;
+}
+
+.img-container{
+  min-height: 100vh;
+  border: 0.5 rem solid var(--mainBlue);
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+@media screen and (min-width:768px){
+  .img-container{
+    min-height: 80vh;
+  }
+}
+
+.btn-left{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: var(--mainBlue);
+  color: var(--mainWhite) !important;
+  transform: translate(-50%, -50%);
+  border: 0.2rem solid var(--mainBlue);
+  font-size: 1.2rem;
+}
+
+.btn-left:hover{
+  border-color: var(--mainBlue);
+  background: var(--mainWhite);
+  color: var(--mainBlue) !important;
+}
+
+.btn-right{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  background: var(--mainBlue);
+  color: var(--mainWhite) !important;
+  transform: translate(50%, -50%);
+  border: 0.2rem solid var(--mainBlue);
+  font-size: 1.2rem;
+}
+
+.btn-right:hover{
+  border-color: var(--mainBlue);
+  background: var(--mainWhite);
+  color: var(--mainBlue) !important;
+}
