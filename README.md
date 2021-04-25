@@ -6,3 +6,4 @@
 4. Countdown Timer
 5. Pass the Message
 6. Counter
+7. Image Slider
