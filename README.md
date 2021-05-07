@@ -7,3 +7,4 @@
 5. Pass the Message
 6. Counter
 7. Image Slider
+8. Testimonials
