@@ -8,3 +8,4 @@
 6. Counter
 7. Image Slider
 8. Testimonials
+9. Quiz App
